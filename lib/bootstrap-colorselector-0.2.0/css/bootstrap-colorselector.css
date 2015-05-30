@@ -8,6 +8,11 @@
  */
 
 /* colorselector dropdown */
+.dropdown-colorselector {
+    display: inline-block;
+    margin: 0 5px;
+}
+
 .dropdown-colorselector>.dropdown-menu {
   top: 80%;
   left: -7px;
@@ -71,6 +76,7 @@
   background-color: #DDD;
   vertical-align: middle;
   border-radius: 0;
+  border: 1px solid #CCC;
 }
 
 .dropdown-menu.dropdown-caret:before {
